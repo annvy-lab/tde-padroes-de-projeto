@@ -1,0 +1,17 @@
+{
+  "name": "pokemon-solid-factories",
+  "version": "1.0.0",
+  "description": "Projeto didático em TypeScript com SOLID + Singleton + Factory Method + Abstract Factory.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
